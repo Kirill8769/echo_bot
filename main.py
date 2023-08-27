@@ -25,6 +25,3 @@ async def start_handler(message: types.Message):
 
 if __name__ == '__main__':
     executor.start_polling(dp, on_startup=main, skip_updates=True)
-
-
-# New data
